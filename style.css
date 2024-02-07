@@ -464,7 +464,7 @@ a:active {
 
 .featured {
     padding: 30px 20px 0;
-    background-color: #fff;
+    background-color:none;
 
 }
 
@@ -493,7 +493,7 @@ a:active {
 .works-list .item h3 {
     font-size: 30px;
     margin-bottom: 16px;
-    color: #1c1c1c;
+    color: #ffb742;
 }
 
 .featured .item .details .item-info,
@@ -517,13 +517,14 @@ a:active {
 
 .featured .item .details .item-info h4,
 .works-list .item .details .item-info h4 {
-    color: #8695a4;
+    color: #ffb742;
     font-size: 18px;
 }
 
 .featured .item .details p,
 .works-list .item .details p {
     width: 700px;
+    color:#ccc;
     text-align: justify;
 }
 
@@ -731,9 +732,49 @@ footer .cols .news-col form button i {
 
     .featured {
         padding: 60px 20px 0;
-        background-color: #fff;
+        background-color: none;
         min-width: max-content;
     }
+
+    .featured .item .details h3,
+.works-list .item h3 {
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #ffb742;
+}
+
+.featured .item .details .item-info,
+.works-list .item .details .item-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.featured .item .details .item-info .year-badge,
+.works-list .item .details .item-info .year-badge,
+.content .work-info .year-badge {
+    background-color: #303f9f;
+    padding: 2px 14px;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.featured .item .details .item-info h4,
+.works-list .item .details .item-info h4 {
+    color: #ffb742;
+    font-size: 18px;
+}
+
+.featured .item .details p,
+.works-list .item .details p {
+    width: 700px;
+    color:#ccc;
+    text-align: justify;
+}
+
 }
 
 
@@ -770,9 +811,48 @@ footer .cols .news-col form button i {
     }
     .featured {
         padding: 60px 20px 0;
-        background-color: #fff;
+        background-color: none;
         min-width: max-content;
     }
+
+    .featured .item .details h3,
+.works-list .item h3 {
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #ffb742;
+}
+
+.featured .item .details .item-info,
+.works-list .item .details .item-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.featured .item .details .item-info .year-badge,
+.works-list .item .details .item-info .year-badge,
+.content .work-info .year-badge {
+    background-color: #303f9f;
+    padding: 2px 14px;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.featured .item .details .item-info h4,
+.works-list .item .details .item-info h4 {
+    color: #ffb742;
+    font-size: 18px;
+}
+
+.featured .item .details p,
+.works-list .item .details p {
+    width: 700px;
+    color:#ccc;
+    text-align: justify;
+}
 
 }
 
@@ -863,9 +943,48 @@ footer .cols .news-col form button i {
 
     .featured {
         padding: 60px 20px 0;
-        background-color: #fff;
+        background-color: none;
         min-width: max-content;
     }
+
+    .featured .item .details h3,
+.works-list .item h3 {
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #ffb742;
+}
+
+.featured .item .details .item-info,
+.works-list .item .details .item-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.featured .item .details .item-info .year-badge,
+.works-list .item .details .item-info .year-badge,
+.content .work-info .year-badge {
+    background-color: #303f9f;
+    padding: 2px 14px;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.featured .item .details .item-info h4,
+.works-list .item .details .item-info h4 {
+    color: #ffb742;
+    font-size: 18px;
+}
+
+.featured .item .details p,
+.works-list .item .details p {
+    width: 700px;
+    color:#ccc;
+    text-align: justify;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -976,13 +1095,13 @@ footer .cols .news-col form button i {
     .featured {
         padding: 60px 20px 0;
         width: 40px;
+        background-color: none;
         height: auto;
     }
 
     .featured .item .p .white-span {
         font-size: 10px;
     }
-
 
     .featured .item,
     .works-list .item {
@@ -1034,6 +1153,7 @@ footer .cols .news-col form button i {
     .featured .item .details p,
     .works-list .item .details p {
         max-width: 254px;
+        color: #ccc;
         text-align: justify;
     }
 
